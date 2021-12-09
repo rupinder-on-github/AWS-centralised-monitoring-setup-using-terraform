@@ -1,0 +1,23 @@
+variable "create_vpc" {}
+variable "single_nat_gateway" {}
+variable "one_nat_gateway_per_az" {}
+variable "private_subnets" {}
+variable "public_subnets" {}
+variable "name" {}
+variable "external_nat_ip_ids" {}
+variable "azs" {}
+variable "create_private_subnets" {}
+variable "create_public_subnets" {}
+variable "create_internet_gateway" {}
+variable "create_nat_gateway" {}
+variable "enable_flow_logs" {}
+variable "vpc_id" {}
+variable "vpc_cidr" {}
+variable "instance_tenancy" {}
+variable "enable_dns_support" {} 
+variable "enable_dns_hostnames" { }
+variable "tags" {}
+variable "cloudwatch_log_group_name" {}
+variable "flow_logs_iam_role_name" {}
+variable "create_flow_log" {}
+variable "reuse_nat_ips" {}
